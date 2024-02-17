@@ -4,10 +4,6 @@ import { lazy } from 'react';
 import Loadable from '../components/Loadable';
 import MinimalLayout from '../layout/MinimalLayout';
 
-
-import Login from '../pages/authentication/Login'
-import Register from '../pages/authentication/Register'
-
 // render - login
 const AuthLogin = Loadable(lazy(() => import('../pages/authentication/Login')));
 const AuthRegister = Loadable(lazy(() => import('../pages/authentication/Register')));

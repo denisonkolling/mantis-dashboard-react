@@ -1,10 +1,11 @@
 // assets
-import { LoginOutlined, ProfileOutlined } from '@ant-design/icons';
+import { LoginOutlined, ProfileOutlined, UserAddOutlined } from '@ant-design/icons';
 
 // icons
 const icons = {
   LoginOutlined,
-  ProfileOutlined
+  ProfileOutlined,
+  UserAddOutlined
 };
 
 // ==============================|| MENU ITEMS - EXTRA PAGES ||============================== //
@@ -28,6 +29,14 @@ const pages = {
       type: 'item',
       url: '/register',
       icon: icons.ProfileOutlined,
+      target: true
+    },
+    {
+      id: 'createDriver',
+      title: 'Create Driver',
+      type: 'item',
+      url: '/driver/create',
+      icon: icons.UserAddOutlined,
       target: true
     }
   ]

@@ -6,6 +6,7 @@ import MainLayout from '../layout/MainLayout';
 
 // render - dashboard
 const DashboardDefault = Loadable(lazy(() => import('../pages/dashboard')));
+const CreateDriver = Loadable(lazy(() => import('../pages/driver/CreateDriver')));
 
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('../pages/extra-pages/SamplePage')));
@@ -54,6 +55,10 @@ const MainRoutes = {
     {
       path: 'icons/ant',
       element: <AntIcons />
+    },
+    {
+      path: 'driver/create',
+      element: <CreateDriver />
     }
   ]
 };
