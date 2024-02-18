@@ -5,7 +5,8 @@ import {
   BarcodeOutlined,
   BgColorsOutlined,
   FontSizeOutlined,
-  LoadingOutlined
+  LoadingOutlined,
+  UserAddOutlined
 } from '@ant-design/icons';
 
 // icons
@@ -15,7 +16,8 @@ const icons = {
   BarcodeOutlined,
   AntDesignOutlined,
   LoadingOutlined,
-  AppstoreAddOutlined
+  AppstoreAddOutlined,
+  UserAddOutlined
 };
 
 // ==============================|| MENU ITEMS - UTILITIES ||============================== //
@@ -53,6 +55,13 @@ const utilities = {
       url: '/icons/ant',
       icon: icons.AntDesignOutlined,
       breadcrumbs: false
+    },
+    {
+      id: 'acreate-driver',
+      title: 'Create Driver',
+      type: 'item',
+      url: '/driver/create',
+      icon: icons.UserAddOutlined,
     }
   ]
 };
